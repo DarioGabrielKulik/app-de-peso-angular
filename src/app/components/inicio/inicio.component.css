@@ -1,0 +1,59 @@
+.fondoItem{
+background-color: #ff111328;
+height: 130px;
+border-radius: 20px;
+}
+button{
+    background-color: #ff3366;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+i{
+    color: white;
+    font-size: 40px;
+}
+p{
+    color: white;
+    font-size: 20px;  
+    margin: 0;
+    font-weight: 700;
+}
+.contenedor{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+input{
+    padding: 0 20px;
+}
+.estiloNumero{
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+    & span{
+        margin-left: 5px;
+    }
+}
+.uno{
+    font-size: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ff4cff5e;
+    padding: 7px;
+}
+.masculino{
+    cursor: pointer;
+}
+.femenino{
+    cursor: pointer;
+}
+.sexoDesactivo{
+    background-color: #7d2f2f33;
+}
